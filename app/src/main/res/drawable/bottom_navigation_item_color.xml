@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#7394be" android:state_checked="true" />
+
+    <!-- Set the color with an alpha value to make it transparent -->
+    <item  android:color="#c0c0c0" />
+</selector>
+

@@ -1,0 +1,49 @@
+package com.aryutalks.Adapters;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+
+import com.aryutalks.FollowersFragment;
+import com.aryutalks.FollowingFragment;
+
+
+public class UserDetailsPagerAdapter extends FragmentPagerAdapter {
+
+    public UserDetailsPagerAdapter(FragmentManager fm) {
+        super(fm);
+    }
+
+    @NonNull
+    @Override
+    public Fragment getItem(int position) {
+        switch (position) {
+            case 0:
+                return new FollowersFragment();
+            case 1:
+                return new FollowingFragment();
+            default:
+                return null;
+        }
+    }
+
+    @Override
+    public int getCount() {
+        return 2;
+    }
+
+    @Nullable
+    @Override
+    public CharSequence getPageTitle(int position) {
+        switch (position) {
+            case 0:
+                return "Followers";
+            case 1:
+                return "Following";
+            default:
+                return "";
+        }
+    }
+}

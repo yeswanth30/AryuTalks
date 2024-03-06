@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "772362968750",
+    "project_id": "aryutalks-c04de",
+    "storage_bucket": "aryutalks-c04de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772362968750:android:6976bd41fe3bc40c08973f",
+        "android_client_info": {
+          "package_name": "com.aryutalks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHYiPtUtg-S5jJMl604gdpO7_HqwPWXm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
